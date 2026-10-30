@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - La Lutte Sénégalaise</title>
+    <style>
+        /* Style inspiré du modèle minimaliste de l'image */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        /* Navbar fixe ou en haut */
+        nav {
+            background-color: #ffffff;
+            padding: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #111;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        nav a:hover {
+            color: #b33939;
+        }
+
+        /* En-tête principal */
+        header {
+            padding: 50px 20px;
+            background-color: #ffffff;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #666;
+            font-style: italic;
+        }
+
+        /* Sections */
+        section {
+            background-color: #ffffff;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            text-align: left;
+        }
+
+        h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+            margin-top: 0;
+            color: #111;
+        }
+
+        /* Listes et Tableaux */
+        ul, ol {
+            padding-left: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f9f9f9;
+        }
+
+        /* Formulaire */
+        .form-group {
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+
+        button {
+            background-color: #111;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        button:hover {
+            background-color: #b33939;
+        }
+
+        /* Pied de page */
+        footer {
+            padding: 30px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. NAVBAR -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- SECTION HOME (En-tête principal) -->
+    <header id="home">
+        <h1>La Lutte Sénégalaise (La Bàmbaax)</h1>
+        <p>Le sport roi au Sénégal, entre tradition ancestrale, mystique et combats épiques.</p>
+    </header>
+
+    <main>
+        <!-- 2. SECTION ABOUT -->
+        <section id="about">
+            <h2>About : Qu'est-ce que la lutte sénégalaise ?</h2>
+            <p>La lutte sénégalaise (<em>Laamb</em> en wolof) est à l'origine une activité traditionnelle préparant les jeunes aux travaux des champs et à la défense du village. Aujourd'hui, elle est devenue le sport national incontesté au Sénégal, mêlant force physique, technique de combat rapproché et traditions culturelles uniques.</p>
+            
+            <h3>Éléments culturels clés :</h3>
+            <ul>
+                <li><strong>Le Bakk :</strong> La danse rituelle et chantée exécutée par le lutteur avant le combat pour galvaniser ses supporters.</li>
+                <li><strong>Les <em>gris-gris</em> :</strong> Des talismans et protections mystiques portés par les lutteurs (ou aspergés par des marabouts) pour se protéger des mauvais sorts.</li>
+                <li><strong>L'arène :</strong> L'espace circulaire où se déroulent les affrontements sous les acclamations des spectateurs.</li>
+            </ul>
+        </section>
+
+        <!-- 2. SECTION WORK -->
+        <section id="work">
+            <h2>Work : Médias et Combats Historiques</h2>
+            <p>Découvrez ci-dessous un aperçu multimédia des plus grands moments de l'arène :</p>
+            
+            <!-- Ajout d'une vidéo (simulée ou locale) -->
+            <div style="margin-bottom: 20px; text-align: center;">
+                <p><strong>Extrait vidéo d'un combat traditionnel :</strong></p>
+                <video controls width="100%" style="max-width: 600px; border-radius: 4px;">
+                    <source src="c:\Users\SURFACE\Downloads\Lutte Sénégalaise _ le combat royal entre Modou Lô et Boy Niang 2 bat les records.mp4" type="video/mp4">
+                    Votre navigateur ne prend pas en charge la balise vidéo.
+                </video>
+            </div>
+
+            <!-- Ajout d'un audio -->
+            <div style="text-align: center;">
+                <p><strong>Ambiance sonore (Battements de tam-tam / Bakk) :</strong></p>
+                <audio controls>
+                    <source src="tam-tam-lutte.mp3" type="audio/mpeg">
+                    Votre navigateur ne prend pas en charge l'élément audio.
+                </audio>
+            </div>
+        </section>
+
+        <!-- 2. SECTION RESUME -->
+        <section id="resume">
+            <h2>Resume : Catégories et Légendes de l'Arène</h2>
+            <p>Voici un récapitulatif des types de luttes et des figures emblématiques du <em>Laamb</em> :</p>
+
+            <!-- Tableau des catégories / champions -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Type de Lutte</th>
+                        <th>Description</th>
+                        <th>Légendes / Figures notables</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lutte sans frappe</td>
+                        <td>Le combat se gagne uniquement en projetant l'adversaire au sol (les poings ne sont pas autorisés).</td>
+                        <td>Tradition pure des villages (Sérères, Diolas)</td>
+                        </tr>
+                    <tr>
+                        <td>Lutte avec frappe</td>
+                        <td>La formule moderne reine : les coups de poing sont permis en plus des prises de corps.</td>
+                        <td>Yékini, Tyson, Balla Gaye 2, Modou Lô</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3 style="margin-top: 25px;">Étapes d'un tournoi majeur :</h3>
+            <ol>
+                <li>La mise en place des écuries et des écuries de lutteurs.</li>
+                <li>Les confrontations préliminaires et les "Drapeaux" du chef de l'État.</li>
+                <li>Le combat royal pour la couronne suprême.</li>
+            </ol>
+        </section>
+
+        <!-- 2. SECTION CONTACT (Formulaire HTML) -->
+        <section id="contact">
+            <h2>Contact : Réserver un billet ou poser une question</h2>
+            <p>Vous souhaitez assister à un grand combat dans l'arène nationale ? Envoyez-nous un message :</p>
+
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Votre Nom :</label>
+                    <input type="text" id="name" name="name" placeholder="Ex: Cheikh Fall" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Votre Email :</label>
+                    <input type="email" id="email" name="email" placeholder="cheikh@exemple.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Votre Message :</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Écrivez votre message ici..." required></textarea>
+                </div>
+
+                <button type="submit">Envoyer le message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- 3. PIED DE PAGE -->
+    <footer>
+        <p>&copy; 2026 - Portfolio Culturel sur la Lutte Sénégalaise. Tous droits réservés.</p>
+        <p><a href="#home" style="color: #666; text-decoration: underline;">Retour en haut de page</a></p>
+    </footer>
+
+</body>
+</html>
